@@ -127,6 +127,11 @@ h3{font-size:var(--fs-h3)}
     margin-bottom: 2em;
 }
 
+.section__subtitle--role{
+    align-self: center;
+    margin-bottom: inherit;
+}
+
 /* nav{display: none;} */
 /*HEADER*/
 header{
@@ -254,7 +259,7 @@ header{
     }
 
     .intro__img{
-        grid-area: img;
+        grid-area:img;
         min-width: 250px;
         position: relative;
         z-index:2;
@@ -370,7 +375,8 @@ header{
 }
 
 .portfolio__item{
-    background: var(--clr-accent);
+    background: inherit;
+    /* background: var(--clr-accent); */
     overflow: hidden;
 }
 
@@ -437,6 +443,7 @@ header{
     margin:0 auto;
 }
 
+/*portfolio paragraphs*/
 .portfolio-item-individual p{
     max-width: 650px;
     margin-left: auto;
