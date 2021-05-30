@@ -449,3 +449,22 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: auto;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .list-order-services{
+      text-align: left;
+  }
