@@ -1,2 +1,2 @@
 # personalSite
-My personal website
+My personal website including my skills, focuses, and project portfolio
